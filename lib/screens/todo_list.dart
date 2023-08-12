@@ -40,7 +40,7 @@ class _TodoListPageState extends State<TodoListPage> {
             replacement: Center(
               child: Text(
                 'No Todo Item',
-                style: Theme.of(context).textTheme.headline3,
+                style: Theme.of(context).textTheme.displaySmall,
               ),
             ),
             child: ListView.builder(
